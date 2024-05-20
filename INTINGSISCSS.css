@@ -1,0 +1,270 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar a{
+    display: block;
+    padding: 13px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: #1717;
+    border-radius: 20px;
+}
+
+.Cuenta{
+    margin-left: 10px;
+    margin-top: -18px;
+    margin-bottom: -5px;
+}
+
+.Cuenta img:hover{
+    cursor: pointer;
+}
+
+.Cuenta a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+#LogoLuisAmigo {
+height: 220px;
+width: 100%;
+}
+
+.head{
+    background-color: #463d3d;
+    align-items: center;
+    color: #fff;
+    padding: 3px 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    justify-content: space-between;
+    display: flex
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 60vh !important;
+    background: url(ASSETS_INTINGSIS/backgroundimg2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.contain h2{
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    box-shadow: inset 1px 1px 200px 0 rgb(20, 20, 20);
+    border-radius: 10px;
+}
+.contain p{
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    box-shadow: inset 1px 1px 200px 0 rgb(20, 20, 20);
+    border-radius: 20px;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    background: #1717;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home{
+    display: flex;
+}
+
+.btn-home a{
+    margin: 0 10px;
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SIS{
+    padding: 50px;
+    background: #271818;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box{
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c279c;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3{
+    font-size: 20px;
+    color: #1717;
+}
+
+.box-container .box p{
+    padding: 0 1rem;
+    font-size: 19px;
+}
+
+.box-container .btn-home{
+    display: flex;
+    justify-content: center;
+}
+
+.SIS p{
+    font-size: 25px;
+}
+
+.about{
+   background: #171717; 
+}
+
+.price{
+    background: url(ASSETS_INTINGSIS/amgbackgro3.jpg) no-repeat center;
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+}
+
+.contact{
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+nav{
+    max-width: 950px;
+    font-size: 0.1rem;
+    margin-top: 10px;
+}
+
+.horizontal_menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.horizontal_menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.vertical_menu{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 150px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 20px;
+}
+
+.horizontal_menu li:hover .vertical_menu{
+    display: block;
+}
+
+.vertical_menu li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+}
+
+.head{
+    background: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75));
+}
+
+
+
+@media (max-width: 760px){
+
+    .title{
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+
+    .SIS{
+        height: 120vh;
+    }
+
+    .navbar{
+        display: none;
+    }
+}
+
